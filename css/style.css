@@ -176,3 +176,37 @@ header img {
   margin: auto 0;
   text-align: justify;
 }
+
+/* Benefits Section */
+
+.benefits .column {
+  padding: 4rem 2rem;
+  border-radius: var(--border-radius-1);
+}
+
+.benefits .column:hover {
+  background-color: var(--base-shade-1);
+}
+
+.benefits .column:hover p {
+  color: var(--white-shade-1);
+}
+
+.benefits .img-container {
+  height: 10rem;
+  width: 10rem;
+  background-color: var(--white-shade-1);
+  margin: auto;
+  border-radius: 50%;
+}
+
+.benefits img {
+  width: 7rem;
+  display: block;
+  margin: auto;
+  padding: 1.1rem 0;
+}
+
+.benefits h3 {
+  text-align: center;
+}
