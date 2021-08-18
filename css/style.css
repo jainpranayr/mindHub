@@ -155,3 +155,24 @@ header img {
 .hero-btn button {
   margin-top: 2rem;
 }
+
+/* About Section */
+
+.about .row {
+  align-items: center;
+}
+
+.about .row .column {
+  width: 100%;
+  padding: 0;
+}
+
+.about img {
+  display: block;
+  width: 80%;
+}
+
+.about p {
+  margin: auto 0;
+  text-align: justify;
+}
