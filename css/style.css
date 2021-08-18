@@ -265,3 +265,53 @@ header img {
   display: block;
   margin: auto;
 }
+
+/* Newsletter Section */
+
+.newsletter {
+  background: linear-gradient(
+    var(--white-shade-1) 60%,
+    var(--base-shade-1) 60%
+  );
+}
+
+.newsletter .wrapper {
+  background-color: var(--white-shade-1);
+  padding: 3rem 10rem;
+  border-radius: var(--border-radius-1);
+  box-shadow: 0 -10px 25px rgba(255, 255, 255, 0.05);
+}
+
+.newsletter .wrapper h3 {
+  color: var(--black-shade-1);
+  text-align: center;
+}
+
+.newsletter .wrapper p {
+  text-align: center;
+}
+
+.newsletter form {
+  margin: 3rem 0 1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.newsletter form input {
+  width: 60%;
+  border: 0.1rem solid var(--black-shade-1);
+}
+
+.newsletter form button {
+  width: 30%;
+}
+
+input[type="email"] {
+  padding: 0.8rem 2rem;
+  border-radius: var(--border-radius-2);
+  outline: none;
+}
+
+input[type="email"]:focus {
+  border: 0.2rem solid var(--black-shade-1);
+}
