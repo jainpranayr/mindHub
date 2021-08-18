@@ -127,3 +127,31 @@ nav li a:hover::before {
 nav .sticky {
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.03);
 }
+
+/* Hero Section */
+
+header {
+  margin-top: 1rem;
+  padding: 5rem;
+  display: grid;
+  grid-template-columns: 4fr 6fr;
+  align-items: center;
+}
+
+.hero-text p {
+  text-align: justify;
+}
+
+header img {
+  display: block;
+  width: 100%;
+}
+
+.hero-btn {
+  display: flex;
+  gap: 2rem;
+}
+
+.hero-btn button {
+  margin-top: 2rem;
+}
