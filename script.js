@@ -1,5 +1,10 @@
 const progressBar = document.querySelector("#progress");
 const navBar = document.querySelector("nav");
+const scrollToTopEl = document.querySelector("#scroll-to-top");
+
+scrollToTopEl.addEventListener("click", () => {
+  document.documentElement.scrollTop = 0;
+});
 
 window.onscroll = () => {
   /* Scroll Indicator */
@@ -15,5 +20,12 @@ window.onscroll = () => {
     navBar.classList.add("sticky");
   } else {
     navBar.classList.remove("sticky");
+  }
+
+  /* Scroll To Top */
+  if (progressBarPosition > 300) {
+    scrollToTopEl.style.display = "grid";
+  } else {
+    scrollToTopEl.style.display = "none";
   }
 };

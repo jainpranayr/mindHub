@@ -41,7 +41,6 @@ html {
 }
 
 body {
-  height: 10000px;
   background-color: white;
 }
 
@@ -350,6 +349,7 @@ footer img {
   cursor: pointer;
 }
 
+/* Copyright */
 .copyright {
   padding: 2.5rem 0;
   background-color: var(--white-shade-2);
@@ -358,4 +358,23 @@ footer img {
 
 .copyright p {
   color: var(--black-shade-1);
+}
+
+/* Scroll To Top */
+#scroll-to-top {
+  display: none;
+  place-items: center;
+  height: 4rem;
+  width: 4rem;
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  outline: none;
+  border: 0.4rem solid var(--white-shade-1);
+  border-radius: var(--border-radius-2);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.12);
+}
+
+#scroll-to-top img {
+  width: 2rem;
 }
