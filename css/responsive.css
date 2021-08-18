@@ -70,7 +70,7 @@
   .newsletter .wrapper {
     padding: 3rem 4rem;
   }
-  #scroll-top {
+  #scroll-to-top {
     height: 5rem;
     width: 5rem;
   }
@@ -81,7 +81,7 @@
     font-size: 46.87%;
   }
 
-  #logo {
+  .logo {
     font-size: var(--heading-font-size-3);
   }
   nav ul {
