@@ -1,5 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap");
 
+:root {
+  --base-shade-1: #54cc85;
+  --base-shade-2: #479264;
+  --white-shade-1: #fff;
+  --white-shade-2: #f8fafb;
+  --white-shade-3: rgba(255, 255, 255, 0.5);
+  --black-shade-1: #231c3d;
+  --black-shade-2: #575a7b;
+
+  --base-font-size: 1.6rem;
+  --heading-font-size-1: 4rem;
+  --heading-font-size-2: 3.2rem;
+  --heading-font-size-3: 2rem;
+  --heading-font-size-4: 1.8rem;
+
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  --border-radius-1: 1rem;
+  --border-radius-2: 0.5rem;
+}
+
 *,
 *::before,
 *::after {

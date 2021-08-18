@@ -1,0 +1,75 @@
+.btn {
+  padding: 1rem 2rem;
+  border-radius: var(--border-radius-2);
+  border: none;
+  outline: none;
+  transition: 0.5s;
+}
+
+.btn-primary {
+  background-color: var(--base-shade-1);
+  color: var(--white-shade-1);
+}
+
+.btn-primary:hover {
+  background-color: var(--base-shade-2);
+}
+
+.btn-secondary {
+  background-color: var(--white-shade-1);
+  border: 0.3rem solid var(--base-shade-1);
+  color: var(--base-shade-1);
+}
+
+.btn-secondary:hover {
+  border: 0.3rem solid var(--base-shade-2);
+  color: var(--base-shade-2);
+}
+
+section,
+footer {
+  padding: 5rem 7rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  gap: 3rem;
+}
+
+h1 {
+  font-size: var(--heading-font-size-1);
+  margin-bottom: 2rem;
+  word-spacing: 1rem;
+  line-height: 1.6;
+}
+
+h2 {
+  font-size: var(--heading-font-size-2);
+  color: var(--black-shade-1);
+  font-weight: var(--font-weight-bold);
+  margin: 2rem 0 5rem 0;
+  text-align: center;
+}
+
+h3 {
+  font-size: var(--heading-font-size-3);
+  color: var(--black-shade-1);
+  font-weight: var(--font-weight-bold);
+  margin: 1.5rem 0;
+}
+
+h4 {
+  font-size: var(--heading-font-size-4);
+  color: var(--black-shade-1);
+  margin: 1.5rem 0;
+}
+
+button,
+p,
+input[type="email"] {
+  font-size: var(--base-font-size);
+  color: var(--black-shade-1);
+  line-height: 1.8;
+  font-weight: var(--font-weight-regular);
+}
