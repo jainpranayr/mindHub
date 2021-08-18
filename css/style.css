@@ -315,3 +315,37 @@ input[type="email"] {
 input[type="email"]:focus {
   border: 0.2rem solid var(--black-shade-1);
 }
+
+/* Footer Section */
+
+footer {
+  background-color: var(--base-shade-1);
+  text-align: center;
+}
+
+footer .row {
+  padding: 3rem 0;
+}
+
+footer .column {
+  width: 100%;
+}
+
+footer .row:nth-child(1) {
+  border-bottom: 0.2rem solid var(--white-shade-1);
+}
+
+footer .row:nth-child(2) {
+  justify-content: center;
+  gap: 20rem;
+}
+
+footer h3 {
+  color: var(--white-shade-2);
+}
+
+footer img {
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+}
