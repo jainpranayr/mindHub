@@ -349,3 +349,13 @@ footer img {
   height: 3rem;
   cursor: pointer;
 }
+
+.copyright {
+  padding: 2.5rem 0;
+  background-color: var(--white-shade-2);
+  text-align: center;
+}
+
+.copyright p {
+  color: var(--black-shade-1);
+}
