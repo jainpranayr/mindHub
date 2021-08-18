@@ -85,7 +85,7 @@ nav img {
 
 .logo {
   font-size: var(--heading-font-size-4);
-  font-weight: 700;
+  font-weight: var(--font-weight-bold);
 }
 
 nav ul {
@@ -209,4 +209,59 @@ header img {
 
 .benefits h3 {
   text-align: center;
+}
+
+/* Pricing Section */
+
+.pricing .column {
+  padding: 3rem 5rem;
+  border-radius: var(--border-radius-1);
+}
+
+.pricing .column.basic {
+  background-color: var(--white-shade-2);
+}
+
+.pricing .column.pro {
+  background-color: var(--base-shade-1);
+}
+
+.pricing h3,
+.pricing h4 {
+  text-align: center;
+}
+
+.pricing h4 {
+  font-weight: var(--font-weight-regular);
+}
+
+.pricing .pro h4 {
+  color: var(--base-shade-1);
+}
+
+.pricing .pro p {
+  color: var(--white-shade-2);
+}
+
+.pricing .details {
+  padding: 2rem 0;
+  margin: 1rem 0;
+}
+
+.pricing .details > p {
+  padding: 1.2rem 0;
+  text-align: center;
+}
+
+.pricing .details {
+  margin-top: 1.3rem;
+}
+
+.column .details p {
+  border-bottom: 0.1rem solid var(--black-shade-2);
+}
+
+.pricing .column button {
+  display: block;
+  margin: auto;
 }
