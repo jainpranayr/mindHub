@@ -137,6 +137,10 @@ header {
   align-items: center;
 }
 
+.hero-text h1 {
+  text-align: center;
+}
+
 .hero-text p {
   text-align: justify;
 }
