@@ -4,6 +4,7 @@ const navBarUl = document.querySelector("#nav-bar");
 const navBarLinks = navBarUl.querySelectorAll("li");
 const hamBurgerMenu = document.querySelector("#hamburger");
 const scrollToTopEl = document.querySelector("#scroll-to-top");
+const sections = document.querySelectorAll("section");
 
 /* HamBurger Menu for Smaller Devices */
 hamBurgerMenu.addEventListener("click", () => {
@@ -14,10 +15,6 @@ navBarLinks.forEach((navBarLink) => {
   navBarLink.addEventListener("click", () => {
     navBarUl.classList.remove("active");
   });
-});
-
-scrollToTopEl.addEventListener("click", () => {
-  document.documentElement.scrollTop = 0;
 });
 
 window.onscroll = () => {
@@ -43,3 +40,24 @@ window.onscroll = () => {
     scrollToTopEl.style.display = "none";
   }
 };
+
+scrollToTopEl.addEventListener("click", () => {
+  document.documentElement.scrollTop = 0;
+});
+
+/* Toggle Active Class For Navigation */
+window.addEventListener("scroll", () => {
+  let cutrrentSection;
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop;
+    if (pageYOffset >= sectionTop) {
+      cutrrentSection = section.getAttribute("id");
+    }
+  });
+  navBarLinks.forEach((li) => {
+    li.classList.remove("active");
+    if (li.classList.contains(cutrrentSection)) {
+      li.classList.add("active");
+    }
+  });
+});

@@ -123,6 +123,10 @@ nav li a:hover::before {
   width: 110%;
 }
 
+nav li.active a {
+  color: var(--base-shade-2);
+  font-weight: var(--font-weight-bold);
+}
 nav .sticky {
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.03);
 }
@@ -138,8 +142,7 @@ nav ul.active li a {
 
 /* Hero Section */
 
-header {
-  margin-top: 1rem;
+.home-section {
   padding: 5rem;
   display: grid;
   grid-template-columns: 4fr 6fr;
@@ -154,7 +157,7 @@ header {
   text-align: justify;
 }
 
-header img {
+.home-section img {
   display: block;
   width: 100%;
 }
@@ -259,8 +262,7 @@ header img {
   padding: 2rem 0;
   margin: 1rem 0;
 }
-
-.pricing .details > p {
+.home-section .pricing .details > p {
   padding: 1.2rem 0;
   text-align: center;
 }

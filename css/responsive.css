@@ -3,10 +3,10 @@
     font-size: 56.25%;
   }
 
-  header {
+  .home-section {
     grid-template-columns: 1fr;
   }
-  header img {
+  .home-section img {
     grid-row: 1;
   }
   section .row,
